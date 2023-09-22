@@ -77,10 +77,8 @@ nav .menu {
 	position: absolute;
 	top: 50%; /* Öğeyi dikey olarak ortalar */
 	left: 50%; /* Öğeyi yatay olarak ortalar */
-	transform: translate(
-		-50%,
-		-50%
-	); /* Öğeyi dikey ve yatay olarak tam ortalar */
+	transform: translate(-50%, -50%);
+	/* Öğeyi dikey ve yatay olarak tam ortalar */
 	padding: 0 20px;
 	text-align: center;
 }
@@ -126,7 +124,7 @@ nav .menu {
 }
 
 .center .btns button:last-child {
-	background-color: #ffffff73;
+	background-color: #ffffff81;
 	color: white;
 }
 
